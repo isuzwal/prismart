@@ -8,9 +8,6 @@ export const ContentPage=()=>{
          
         
         </div>
-
-      
-
       </section>
     )
 }
