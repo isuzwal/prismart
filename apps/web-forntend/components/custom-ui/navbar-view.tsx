@@ -53,18 +53,18 @@ export function Navbarpage() {
               </Button>
                 <button 
                 onClick={handleTheme}
-               className=" flex border dark:text-white dark:border-zinc-900 dark:bg-zinc-900 border-neutral-200 bg-neutral-200  rounded-md px-2 py-1.5 max-w-xl mx-auto   cursor-pointer">
+               className=" flex  dark:text-white   rounded-md px-2 py-1.5 max-w-xl mx-auto   cursor-pointer">
             {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
             </div>
           ) : (
            <div className="flex gap-2  ">
-            <button className=" flex flex-1  cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-4 py-1.5 w-full border border-neutral-900 bg-neutral-950">
+            <button className=" flex flex-1  shadow-[inset_1px_1px_1px_oklch(95%_0.01_250),inset_0_2px_2px_oklch(85%_0.02_250),0_2px_5px_rgba(0,0,0,0.15)] cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-6 py-1.5 w-full border border-neutral-900 bg-neutral-950">
             <Link  href={"/login"}>Login</Link>
            </button>
            <button 
              onClick={handleTheme}
-            className=" flex border dark:text-white dark:border-zinc-900 dark:bg-zinc-900 border-neutral-200 bg-neutral-200  rounded-md px-2 py-1.5 max-w-xl mx-auto   cursor-pointer">
+            className=" flex  dark:text-white  rounded-md px-2 py-1.5 max-w-xl mx-auto   cursor-pointer">
             {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
             </div>
@@ -98,12 +98,12 @@ export function Navbarpage() {
             </div>
           ) : (
             <div className="flex gap-2  w-full ">
-            <button className=" flex flex-1  cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-4 py-1.5 w-full border border-neutral-900 bg-neutral-950">
+            <button className=" flex flex-1 shadow-[inset_1px_1px_1px_oklch(95%_0.01_250),inset_0_2px_2px_oklch(85%_0.02_250),0_2px_5px_rgba(0,0,0,0.15)]  cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-4 py-1.5 w-full border border-neutral-900 bg-neutral-950">
             <Link  href={"/login"}>Login</Link>
            </button>
            <button 
              onClick={handleTheme}
-            className=" flex border  dark:text-white dark:border-zinc-900 dark:bg-zinc-800   border-neutral-200 bg-neutral-200  rounded-md px-5 py-1.5 max-w-xl mx-auto   cursor-pointer">
+            className=" flex   dark:text-white  rounded-md px-5 py-1.5 max-w-xl mx-auto   cursor-pointer">
             {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
             </div>

@@ -4,7 +4,7 @@ import { Github, Twitter } from "lucide-react";
 export default function FooterPage() {
   return (
     <footer className="text-neutral-500">
-      <div className="h-px bg-neutral-600  opacity-40" />
+      
       <div className="max-w-screen-lg mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between">
         <div className="text-sm font-medium">
           &copy; {new Date().getFullYear()} uzwal. All rights reserved.

@@ -177,24 +177,6 @@ PostgreSQL database with Prisma ORM:
 - **Protected Routes** - Authentication middleware
 - **Session Management** - Client-side token storage
 
-## 🌐 API Endpoints
-
-### Authentication
-- `POST /auth/register` - User registration
-- `POST /auth/login` - User login
-- `POST /auth/logout` - User logout
-
-### Rooms
-- `GET /rooms` - List user's rooms
-- `POST /rooms` - Create new room
-- `GET /rooms/:slug` - Get room details
-- `DELETE /rooms/:id` - Delete room
-
-### Users
-- `GET /users/profile` - Get user profile
-- `PUT /users/profile` - Update user profile
-
-## 🚀 Deployment
 
 ### Environment Variables
 
