@@ -1,4 +1,5 @@
 import { Zap, Infinity, MessageCircle, Share2 } from "lucide-react";
+import Image from "next/image";
 export const ContentPage = () => {
   const features = [
     {
@@ -8,13 +9,11 @@ export const ContentPage = () => {
     {
       icon: Infinity,
       title: "Infinite canvas",
-    
     },
 
     {
       icon: Share2,
       title: "Easy export",
-     
     },
   ];
   return (
@@ -35,42 +34,45 @@ export const ContentPage = () => {
              leading-tight px-4">
             Bring Your Ideas to Life Through Drawing
           </h1>
-
-          <div className="flex flex-wrap gap-3 items-center justify-center mt-4">
-            <a
-              href="/login"
-              className="rounded-xl border border-transparent 
-             px-6 py-2 font-medium 
-             text-neutral-800 
-             bg-neutral-100 
-             dark:text-neutral-200 dark:bg-neutral-900 
-             cursor-pointer 
-             shadow-[inset_0px_2px_2px_oklch(95%_0.01_250),inset_0_2px_2px_oklch(85%_0.02_250),0_2px_5px_rgba(0,0,0,0.15)]
-             transition-all duration-300">
-              Unleash Your Creativity
-            </a>
-            <button
-              className="rounded-xl border dark:border-neutral-700/30 border-neutral-400/20 
+          <div className="p-1">
+            <div className="flex flex-wrap gap-3 items-center justify-center mt-4">
+              <a
+                href="/login"
+                className="rounded-xl border dark:border-zinc-800/30
               px-6 py-2 font-medium 
-             text-neutral-700 
-             dark:text-neutral-300 
-             transition-all duration-300 ease-in-out ">
-              See What’s Possible”
-            </button>
+              text-neutral-800 
+              bg-neutral-100 border-neutral-50  shadow
+              dark:text-neutral-200 dark:bg-zinc-800/30 dark:shadow-2xs
+              cursor-pointer  hover:scale-105 duration-300 ease-in-out
+              
+              transition-all ">
+                Unleash Your Creativity
+              </a>
+              <button
+                className="rounded-xl  dark:border-neutral-700/30 border-neutral-400/20 
+              px-6 py-2 font-medium 
+              text-neutral-700 
+              dark:text-neutral-300 
+              transition-all duration-300 ease-in-out ">
+                See What’s Possible
+              </button>
+            </div>
           </div>
         </div>
-        <div className=" w-full mt-14  flex  flex-col   items-center">
-          <h1 className="px-2 text-neutral-700 dark:text-neutral-400 font-semibold text-3xl  lg:text-5xl ">
+        <div className=" w-full mt-12  flex  flex-col   items-center">
+          <h1 className="px-2 text-neutral-700 dark:text-neutral-400 font-semibold sm:text-2xl  lg:text-4xl  text-start  w-full ">
             Everything you need to create together
           </h1>
           <div className="grid  mt-10  sm:grid-cols-1 lg:grid-cols-3 gap-6  w-full">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="glass-card p-8 rounded-2xl  transition-all duration-300 border  dark:bg-neutral-900/20 dark:border-neutral-900/60 bg-neutral-50 shadow-sm border-neutral-100">
+                className="glass-card p-7 rounded-2xl  transition-all duration-300 border  dark:bg-zinc-900/20 dark:border-neutral-900/80 bg-neutral-50 shadow-sm border-neutral-100">
                 <div className="flex gap-2 items-center">
-                  <feature.icon className="w-9 h-9 dark:text-neutral-400 text-neutral-700/60" />
-                  <h3 className="text-2xl dark:text-neutral-300 text-neutral-600 font-semibold ">{feature.title}</h3>
+                  <feature.icon className="w-5 h-5 dark:text-neutral-400 text-neutral-700/60" />
+                  <h3 className="text-xl dark:text-neutral-300 text-neutral-800 font-semibold ">
+                    {feature.title}
+                  </h3>
                 </div>
               </div>
             ))}

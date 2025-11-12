@@ -59,7 +59,9 @@ export function Navbarpage() {
             </div>
           ) : (
            <div className="flex gap-2  ">
-            <button className=" flex flex-1  shadow-[inset_1px_1px_1px_oklch(95%_0.01_250),inset_0_2px_2px_oklch(85%_0.02_250),0_2px_5px_rgba(0,0,0,0.15)] cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-6 py-1.5 w-full border border-neutral-900 bg-neutral-950">
+            <button className=" flex flex-1 cursor-pointer  justify-center  font-semibold  text-[12px] rounded-md px-6 py-1.5 w-full  text-neutral-800 
+             bg-neutral-100 border-neutral-50  shadow
+             dark:text-neutral-200 dark:bg-zinc-950 dark:shadow-2xs">
             <Link  href={"/login"}>Login</Link>
            </button>
            <button 
@@ -98,7 +100,8 @@ export function Navbarpage() {
             </div>
           ) : (
             <div className="flex gap-2  w-full ">
-            <button className=" flex flex-1 shadow-[inset_1px_1px_1px_oklch(95%_0.01_250),inset_0_2px_2px_oklch(85%_0.02_250),0_2px_5px_rgba(0,0,0,0.15)]  cursor-pointer  justify-center  text-neutral-200  font-semibold  text-[12px] rounded-md px-4 py-1.5 w-full border border-neutral-900 bg-neutral-950">
+            <button className=" flex flex-1   cursor-pointer  justify-center font-semibold  text-[12px] rounded-md px-4 py-1.5 w-full  bg-neutral-100 border-neutral-50  shadow
+             dark:text-neutral-200 dark:bg-zinc-950 dark:shadow-2xs">
             <Link  href={"/login"}>Login</Link>
            </button>
            <button 

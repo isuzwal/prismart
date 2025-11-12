@@ -3,12 +3,14 @@ import Conatiner from "@/components/custom-ui/conatiner";
 import FooterPage from "@/components/custom-ui/footer";
 import { Navbarpage } from "@/components/custom-ui/navbar-view";
 import { ContentPage }from "@/components/custom-ui/content"
+import { FQApage } from "@/components/custom-ui/faq";
 export default function Home() {
   return (
     <div  className="dark:bg-neutral-950 bg-neutral-50 w-full">
     <Conatiner>
       <Navbarpage />
       <ContentPage />
+      <FQApage />
       <FooterPage />
     </Conatiner>
     </div>
