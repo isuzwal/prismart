@@ -17,8 +17,8 @@ export const ContentPage = () => {
     },
   ];
   return (
-    <section className="min-h-screen">
-      <div className="mx-auto max-w-7xl  px-4 py-24 md:py-28 lg:py-32 flex    flex-col items-center justify-center gap-20">
+    <section >
+      <div className="mx-auto max-w-7xl  px-4 py-14 flex    flex-col items-center justify-center gap-14">
         <div className="flex flex-col gap-4 justify-center items-center text-center">
           <p className="px-3 dark:text-neutral-400 text-neutral-800 font-medium text-[12px]  rounded-xl py-0.5 max-w-[26rem] mx-auto w-full border  dark:bg-neutral-800/60 dark:border-neutral-800/60 bg-neutral-200 border-neutral-100">
             Where ideas get <span className="text-purple-400">messy</span>,creative,and real all on{" "}
@@ -61,7 +61,7 @@ export const ContentPage = () => {
         </div>
         <div className=" w-full mt-12  flex  flex-col   items-center">
           <h1 className="px-2 text-neutral-700 dark:text-neutral-400 font-semibold sm:text-2xl  lg:text-4xl  text-start  w-full ">
-            Everything you need to create together
+            Everything you need to create together .
           </h1>
           <div className="grid  mt-10  sm:grid-cols-1 lg:grid-cols-3 gap-6  w-full">
             {features.map((feature, index) => (
