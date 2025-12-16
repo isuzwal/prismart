@@ -203,6 +203,7 @@ pnpm build
 pnpm start
 ```
 
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -232,4 +233,5 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 ---
 
 **PrismArt** - Where creativity meets collaboration! 🎨✨
-<img width="1716" height="755" alt="image" src="https://github.com/user-attachments/assets/0839b0b3-5926-459e-a637-64c93f28d391" />
+<img width="4800" height="2700" alt="prismart" src="https://github.com/user-attachments/assets/f22f64e3-118a-44d3-ac63-587da0b3451b" />
+ 
